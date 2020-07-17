@@ -39,11 +39,15 @@ img {
   justify-content: center;
 }
 
-span {
+.rainbow {
   animation-name: colorchng-red;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.pointer {
+  background-color: yellow;
 }
 
 @keyframes colorchng-red {
