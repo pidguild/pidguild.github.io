@@ -76,3 +76,17 @@ img {
     color: purple;
   }
 }
+
+@media (max-width: 500px) {
+  .block {
+    width: 60vw;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 60vw;
+    border-bottom: 1px solid black;
+  }
+}
