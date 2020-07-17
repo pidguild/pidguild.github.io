@@ -90,3 +90,10 @@ img {
     border-bottom: 1px solid black;
   }
 }
+
+.date {
+  margin-top: 5px;
+  font-size: 10px;
+  color: rgb(89, 89, 89);
+  font-family: monospace;
+}
