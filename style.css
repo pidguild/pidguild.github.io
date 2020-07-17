@@ -38,3 +38,37 @@ img {
   height: 100%;
   justify-content: center;
 }
+
+span {
+  animation-name: colorchng-red;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes colorchng-red {
+  15% {
+    color: red;
+  }
+  30% {
+    color: orange;
+  }
+
+  45% {
+    color: yellow;
+  }
+
+  60% {
+    color: green;
+  }
+
+  75% {
+    color: lightblue;
+  }
+  90% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
