@@ -1,3 +1,55 @@
+#logo {
+  width: max-content;
+  font-size: 15vw;
+  margin: 30vh auto;
+  visibility: hidden;
+  animation-name: logo2;
+  animation-duration: 2s;
+}
+
+#logocont {
+  background-color: rgba(0,0,0,0);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
+@keyframes logo {
+
+  from {
+    background-color: rgb(236, 106, 106);
+
+
+  }
+  50% {
+    background-color: rgb(236, 106, 106);
+  }
+  to {
+
+  }
+
+}
+
+@keyframes logo2 {
+  from {
+    color: white;
+    visibility: visible;
+  }
+
+  to {
+    color: rgba(0,0,0,0);
+    visibility: visible;
+  }
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .cont {
   display: flex;
   flex-direction: column; 
